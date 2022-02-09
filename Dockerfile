@@ -1,7 +1,7 @@
 version: "2.1"
 services:
   mysql-workbench:
-    image: lscr.io/linuxserver/mysql-workbench
+    image: quay.io/linuxserver.io/mysql-workbench
     container_name: mysql-workbench
     environment:
       - PUID=1000
